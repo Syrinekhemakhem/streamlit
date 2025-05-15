@@ -1,4 +1,4 @@
-import test.streamlit as st
+import streamlit as st
 st.title("Hello Gomycode")
 st.header("En-tete")   
 st.subheader("Sous-Titre")
