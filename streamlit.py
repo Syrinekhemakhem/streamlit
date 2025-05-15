@@ -10,13 +10,7 @@ st.warning("Warning")
 st.error("Error")
 exp=ZeroDivisionError("Trying ti divide by Zero")
 st.exception(exp)
-"""
-from PIL import Image 
-img=Image.open(r"C:\Users\khema\OneDrive\Images\Captures d’écran\Capture d'écran 2025-02-18 091221.png")
-st.image(img,width=200)
-if st.checkbox("Show/Hide"):           #pour filtrer mes données selon une année par exemple ou bien pour remplir un formulaire
-    st.text("Showing the widget")   #on a pas fait Show/Hide=True car c'est auto, si on clike sur le box c'est automatiquement True et le message sort 
-"""
+
 status=st.radio("Select Gender:",('Male','Female'))
 if(status=='Male'):
     st.success("Male")
